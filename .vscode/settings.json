@@ -1,0 +1,24 @@
+{
+	"eslint.validate": [
+		"svelte",
+		"javascript",
+		"typescript",
+		"javascriptreact",
+		"typescriptreact"
+	],
+	"eslint.workingDirectories": ["."],
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"editor.formatOnPaste": true,
+	"editor.formatOnType": true,
+	"editor.formatOnSave": false,
+	"editor.codeActionsOnSave": {
+		"source.addMissingImports": "always",
+		"source.removeUnusedImports": "always",
+		"source.organizeImports": "never",
+		"source.format": "always",
+		"source.fixAll": "always"
+	}
+}
